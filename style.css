@@ -1,0 +1,106 @@
+body{
+    background-color: #F6F2F2;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.condatinor{
+    width: 30%;
+    margin: 30px auto;
+    background: #f2f8f9;
+    border: 2px solid red;
+
+}
+
+.heading{
+  text-align: center;
+  font-size: 30px;
+  color: #b55860;  
+}
+
+.head{
+text-align: center;
+
+}
+
+.income-expense{
+width: 80%;
+ display: flex;
+margin: 0 auto;
+background-color: white;
+justify-content: space-between;
+border-radius: 30px;
+}
+
+.left-income{
+  width: 40%;
+  text-align: center; 
+  padding: 10px;
+  align-items: center;
+}
+
+.right-expense{
+width: 40%;
+padding: 10px;
+text-align: center;
+}
+
+
+.income{
+  font-size: 15px;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+.expense{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#income-span{
+   color: green; 
+   font-size: 17px;
+  font-weight: 500;
+}
+
+#expensespan{
+    color: red; 
+    font-size: 17px;
+   font-weight: 500;
+   
+}
+
+.history-div{
+margin-top: 30px;
+font-size: 17px;
+border-bottom: 1px solid black;
+}
+
+.list{
+margin-top: 10px;
+width: 80%;
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 25px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.6);
+}
+
+.addnew-heading{
+ font-size: 18px;
+ padding: 20px;
+ border-bottom: 1px solid gray;
+}
